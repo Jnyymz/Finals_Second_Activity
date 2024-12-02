@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3d9ff; /* Light blue background */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 3%;
+}
+input {
+    padding: 10px;
+    font-size: 14px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%; /* Ensures full width for inputs */
+    box-sizing: border-box;
+    background-color: #FFF6E9;
+}
+
+input[type="submit"] {
+    grid-column: span 2; /* Make the button span both columns */
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #ffcc80; /* Orange background for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffa726; /* Darker orange on hover */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    text-align: center;
+    background-color: #ffcc80;
+}
+
